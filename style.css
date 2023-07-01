@@ -10,7 +10,6 @@ body {
     /* Center vertically */
     height: 100vh;
     overflow: auto;
-    cursor: none;
 }
 
 .center h1 {

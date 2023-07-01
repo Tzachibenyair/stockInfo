@@ -17,7 +17,7 @@ const User = require('./models/users');
 
 
 app.get('/', (req, res) => {
-    res.send("Welcome to your server")
+    res.sendFile(path.join(__dirname + '/signin.html'));
 })
 
 app.get('/signin', function (req, res) {
